@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(135, 206, 250);
+    position: relative;
+}
+
+#top-left-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    margin-right: 10px;
+}
